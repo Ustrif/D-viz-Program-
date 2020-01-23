@@ -11,7 +11,7 @@ class Program(QWidget):
 
     def aq(self):
 
-        url = "http://data.fixer.io/api/latest?access_key=58bc90d630d2078958e35693b47afd6c&format=1"
+        url = "http://data.fixer.io/api/latest?access_key=APIKEYINIZBURAYAYAZILIR&format=1"
         response = requests.get(url)
         jsonveri = response.json()
 
